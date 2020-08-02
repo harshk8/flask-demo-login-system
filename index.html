@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<center><h1>Welcome {{username}}</h1>
+<br>
+
+	<a href="{{ url_for('login') }}"> Login </a>
+
+</center>
+
+{% endblock %}
